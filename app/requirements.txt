@@ -1,0 +1,6 @@
+pandas
+streamlit
+matplotlib
+mlxtend
+ollama
+xlsxwriter
