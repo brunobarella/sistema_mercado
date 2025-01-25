@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "sistema-precificacao"
+version = "0.1.0"
+description = ""
+authors = ["Bruno Barella <brunobarella@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pandas = "^2.2.3"
+ipykernel = "^6.29.5"
+ipython = "^8.31.0"
+jupyter = "^1.1.1"
+streamlit = "^1.41.1"
+matplotlib = "^3.10.0"
+mlxtend = "^0.23.3"
+ollama = "^0.4.7"
+xlsxwriter = "^3.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
