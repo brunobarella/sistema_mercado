@@ -20,7 +20,7 @@ RUN ollama serve & \
 RUN git clone https://github.com/brunobarella/sistema_mercado.git .
 
 
-
+COPY requirements.txt /app/
 RUN pip3 install -r requirements.txt
 
 EXPOSE 8501
